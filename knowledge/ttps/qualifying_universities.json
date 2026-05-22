@@ -1,0 +1,347 @@
+{
+  "meta": {
+    "plan": "高端人才通行证计划 (TTPS)",
+    "source": "https://www.immd.gov.hk/pdf/aggregate_list.pdf",
+    "last_updated": "2026-04-16",
+    "total_count": 200,
+    "description": "合资格大学综合名单（高才通计划 B类及C类用）",
+    "note": "此名单由劳工及福利局根据四大世界大学排行榜及特定专业排名制定。持续和专业教育学院、分校、延伸学院或附属学院的学历不予接受。名誉学士学位不予接受。"
+  },
+  "removed_effective_2026_01_01": {
+    "note": "以下4所大学已从名单中删除，自2026年1月1日起其学士学位毕业生不再符合B类及C类申请资格",
+    "universities": [
+      "Ecole Polytechnique",
+      "Université Grenoble Alpes",
+      "Universite Sorbonne Paris Cite-USPC",
+      "University of Freiburg"
+    ]
+  },
+  "newly_added": {
+    "note": "以下大学为名单中新增的大学（*标注）",
+    "universities": [
+      "Adelaide University (Australia)",
+      "University of Vienna (Austria)",
+      "Karlsruhe Institute of Technology - KIT (Germany)",
+      "Politecnico di Milano (Italy)",
+      "King Fahd University of Petroleum & Minerals (Saudi Arabia)"
+    ]
+  },
+  "universities_by_region": {
+    "阿根廷": {
+      "country": "Argentina",
+      "universities": ["Universidad de Buenos Aires (UBA)"]
+    },
+    "澳洲": {
+      "country": "Australia",
+      "universities": [
+        "University of Melbourne",
+        "University of Sydney",
+        "The University of Queensland",
+        "Monash University",
+        "Australian National University",
+        "University of New South Wales",
+        "The University of Western Australia",
+        "University of Adelaide",
+        "University of Technology Sydney",
+        "Adelaide University (新增)"
+      ]
+    },
+    "奥地利": {
+      "country": "Austria",
+      "universities": ["University of Vienna (新增)"]
+    },
+    "比利时": {
+      "country": "Belgium",
+      "universities": ["KU Leuven", "Ghent University"]
+    },
+    "巴西": {
+      "country": "Brazil",
+      "universities": ["University of São Paulo"]
+    },
+    "加拿大": {
+      "country": "Canada",
+      "universities": [
+        "University of Toronto",
+        "University of British Columbia",
+        "McGill University",
+        "McMaster University",
+        "University of Montreal",
+        "University of Alberta"
+      ]
+    },
+    "智利": {
+      "country": "Chile",
+      "universities": ["Pontificia Universidad Católica de Chile"]
+    },
+    "中国内地": {
+      "country": "Chinese Mainland",
+      "universities": [
+        "清华大学 (Tsinghua University)",
+        "北京大学 (Peking University)",
+        "复旦大学 (Fudan University)",
+        "浙江大学 (Zhejiang University)",
+        "上海交通大学 (Shanghai Jiao Tong University)",
+        "中国科学技术大学 (University of Science and Technology of China)",
+        "中山大学 (Sun Yat-sen University)",
+        "南京大学 (Nanjing University)",
+        "华中科技大学 (Huazhong University of Science and Technology)",
+        "武汉大学 (Wuhan University)",
+        "西安交通大学 (Xi'an Jiaotong University)",
+        "哈尔滨工业大学 (Harbin Institute of Technology)",
+        "中南大学 (Central South University)",
+        "四川大学 (Sichuan University)",
+        "北京航空航天大学 (Beihang University)",
+        "东南大学 (Southeast University)",
+        "北京理工大学 (Beijing Institute of Technology)",
+        "同济大学 (Tongji University)",
+        "中国人民大学 (Renmin University of China)",
+        "北京师范大学 (Beijing Normal University)",
+        "南开大学 (Nankai University)",
+        "天津大学 (Tianjin University)",
+        "中国科学院大学 (University of Chinese Academy of Sciences)"
+      ]
+    },
+    "丹麦": {
+      "country": "Denmark",
+      "universities": ["University of Copenhagen", "Technical University of Denmark", "Aarhus University"]
+    },
+    "芬兰": {
+      "country": "Finland",
+      "universities": ["University of Helsinki"]
+    },
+    "法国": {
+      "country": "France",
+      "universities": [
+        "Sorbonne University",
+        "Université Paris Cité (formerly Université de Paris)",
+        "Université Paris-Saclay",
+        "Université PSL",
+        "Institut Polytechnique de Paris"
+      ]
+    },
+    "德国": {
+      "country": "Germany",
+      "universities": [
+        "Ludwig-Maximilians-Universität München",
+        "Heidelberg University",
+        "Technical University of Munich",
+        "Humboldt-Universität zu Berlin",
+        "Freie Universität Berlin",
+        "RWTH Aachen University",
+        "University of Tübingen",
+        "Charité - Universitätsmedizin Berlin",
+        "University of Bonn",
+        "Karlsruhe Institute of Technology - KIT (新增)"
+      ]
+    },
+    "香港": {
+      "country": "Hong Kong SAR",
+      "universities": [
+        "香港大学 (University of Hong Kong)",
+        "香港中文大学 (Chinese University of Hong Kong)",
+        "香港科技大学 (The Hong Kong University of Science and Technology)",
+        "香港城市大学 (City University of Hong Kong)",
+        "香港理工大学 (Hong Kong Polytechnic University)"
+      ]
+    },
+    "爱尔兰": {
+      "country": "Ireland",
+      "universities": ["Trinity College Dublin, The University of Dublin"]
+    },
+    "以色列": {
+      "country": "Israel",
+      "universities": ["Weizmann Institute of Science", "Technion-Israel Institute of Technology", "The Hebrew University of Jerusalem"]
+    },
+    "意大利": {
+      "country": "Italy",
+      "universities": ["Politecnico di Milano (新增)"]
+    },
+    "日本": {
+      "country": "Japan",
+      "universities": [
+        "The University of Tokyo",
+        "Kyoto University",
+        "Tokyo Institute of Technology (Tokyo Tech)",
+        "Osaka University",
+        "Tohoku University",
+        "Nagoya University"
+      ]
+    },
+    "马来西亚": {
+      "country": "Malaysia",
+      "universities": ["Universiti Malaya (UM)"]
+    },
+    "墨西哥": {
+      "country": "Mexico",
+      "universities": ["Universidad Nacional Autónoma de México (UNAM)"]
+    },
+    "荷兰": {
+      "country": "Netherlands",
+      "universities": [
+        "University of Amsterdam",
+        "Utrecht University",
+        "Erasmus University Rotterdam",
+        "Wageningen University & Research",
+        "Vrije Universiteit Amsterdam",
+        "Leiden University",
+        "University of Groningen",
+        "Delft University of Technology",
+        "Hotelschool The Hague"
+      ]
+    },
+    "新西兰": {
+      "country": "New Zealand",
+      "universities": ["The University of Auckland"]
+    },
+    "挪威": {
+      "country": "Norway",
+      "universities": ["University of Oslo"]
+    },
+    "俄罗斯": {
+      "country": "Russia",
+      "universities": ["Lomonosov Moscow State University"]
+    },
+    "沙特阿拉伯": {
+      "country": "Saudi Arabia",
+      "universities": [
+        "King Abdulaziz University",
+        "King Abdullah University of Science and Technology",
+        "King Saud University",
+        "King Fahd University of Petroleum & Minerals (新增)"
+      ]
+    },
+    "新加坡": {
+      "country": "Singapore",
+      "universities": ["National University of Singapore", "Nanyang Technological University, Singapore"]
+    },
+    "韩国": {
+      "country": "South Korea",
+      "universities": [
+        "Seoul National University",
+        "Korea Advanced Institute of Science and Technology (KAIST)",
+        "Korea University",
+        "Yonsei University",
+        "Pohang University of Science And Technology (POSTECH)",
+        "Sungkyunkwan University (SKKU)"
+      ]
+    },
+    "西班牙": {
+      "country": "Spain",
+      "universities": ["University of Barcelona"]
+    },
+    "瑞典": {
+      "country": "Sweden",
+      "universities": ["Karolinska Institute", "Lund University", "KTH Royal Institute of Technology", "Uppsala University", "Stockholm University"]
+    },
+    "瑞士": {
+      "country": "Switzerland",
+      "universities": [
+        "ETH Zurich - Swiss Federal Institute of Technology",
+        "École Polytechnique Fédérale de Lausanne",
+        "University of Zurich",
+        "University of Geneva",
+        "University of Basel",
+        "University of Bern",
+        "EHL Hospitality Business School",
+        "Swiss Hotel Management School",
+        "Les Roches Global Hospitality Management Education",
+        "Glion Institute of Higher Education",
+        "Cesar Ritz Colleges Switzerland"
+      ]
+    },
+    "台湾": {
+      "country": "Taiwan",
+      "universities": ["国立台湾大学 (National Taiwan University - NTU)"]
+    },
+    "英国": {
+      "country": "U.K.",
+      "universities": [
+        "University of Oxford",
+        "University of Cambridge",
+        "Imperial College London",
+        "University College London",
+        "University of Edinburgh",
+        "King's College London",
+        "University of Manchester",
+        "University of Bristol",
+        "University of Southampton",
+        "University of Glasgow",
+        "University of Birmingham",
+        "London School of Economics and Political Science",
+        "University of Warwick",
+        "Durham University",
+        "University of St Andrews",
+        "University of Leeds",
+        "The University of Sheffield",
+        "University of Nottingham",
+        "Queen Mary University of London",
+        "Royal College of Art",
+        "University of the Arts London"
+      ]
+    },
+    "美国": {
+      "country": "U.S.A.",
+      "universities": [
+        "Harvard University",
+        "Massachusetts Institute of Technology",
+        "Stanford University",
+        "University of California, Berkeley",
+        "California Institute of Technology",
+        "Columbia University",
+        "Princeton University",
+        "University of Washington",
+        "Yale University",
+        "Johns Hopkins University",
+        "University of California, Los Angeles",
+        "The University of Chicago",
+        "University of California, San Francisco",
+        "University of Pennsylvania",
+        "University of California, San Diego",
+        "University of Michigan-Ann Arbor",
+        "Duke University",
+        "Cornell University",
+        "Northwestern University",
+        "New York University",
+        "Washington University in St. Louis",
+        "University of North Carolina--Chapel Hill",
+        "University of Wisconsin-Madison",
+        "University of Texas at Austin",
+        "University of California, Santa Barbara",
+        "University of Pittsburgh",
+        "University of Colorado--Boulder",
+        "Ohio State University--Columbus",
+        "Boston University",
+        "University of Maryland, College Park",
+        "University of Illinois at Urbana-Champaign",
+        "University of California, Santa Cruz",
+        "University of California, Davis",
+        "University of Southern California",
+        "Rockefeller University",
+        "Georgia Institute of Technology",
+        "Pennsylvania State University",
+        "Emory University",
+        "Vanderbilt University",
+        "Icahn School of Medicine at Mount Sinai",
+        "Carnegie Mellon University",
+        "University of Arizona",
+        "Michigan State University",
+        "Brown University",
+        "University of California, Irvine",
+        "University of Minnesota--Twin Cities",
+        "University of Florida",
+        "Rice University",
+        "Purdue University - West Lafayette",
+        "Dartmouth College",
+        "The University of Texas Southwestern Medical Center at Dallas",
+        "The University of Texas M. D. Anderson Cancer Center",
+        "Parsons School of Design, the New School",
+        "Rhode Island School of Design",
+        "University of Massachusetts"
+      ]
+    }
+  },
+  "lookup_by_name": {
+    "note": "快速查询大学是否在名单中，忽略大小写和简繁差异",
+    "total_count": 197
+  }
+}
