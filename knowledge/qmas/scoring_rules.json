@@ -1,0 +1,161 @@
+{
+  "meta": {
+    "plan": "优秀人才入境计划 (QMAS)",
+    "source": "https://www.immd.gov.hk/hks/services/visas/quality_migrant_admission_scheme.html",
+    "last_updated": "2026-04-16",
+    "description": "综合计分制 12 项评核准则（2024年起实施的新制，取代旧有逐项计分方式）"
+  },
+  "basic_requirements": {
+    "age": { "min": 18, "description": "提交申请时年龄必须为 18 岁或以上" },
+    "financial": { "description": "能独力负担本人及受养人居港期间的生活和住宿开支，不需依赖公共援助" },
+    "character": { "description": "无刑事罪行记录或不良入境记录" },
+    "education": { "description": "一般要求为认可大学/高等教育院校颁授的大学学位；特殊情况下可接受良好技术资格、专业能力及经验" }
+  },
+  "assessment_criteria": [
+    {
+      "id": 1,
+      "category": "年龄",
+      "description": "申请人年龄",
+      "criteria": [
+        { "condition": "18-39岁", "result": "符合准则" },
+        { "condition": "40-44岁", "result": "符合准则（40岁及以上但不足45岁）" },
+        { "condition": "45-50岁", "result": "符合准则（45岁及以上但不足51岁）" },
+        { "condition": "51岁及以上", "result": "不符合准则" }
+      ],
+      "note": "以申请人提交申请时的实际年龄为准"
+    },
+    {
+      "id": 2,
+      "category": "学历/专业资格",
+      "description": "申请人的学历水平",
+      "criteria": [
+        { "condition": "持有两个或以上学士学位", "result": "符合准则（双重学位）" },
+        { "condition": "硕士学位", "result": "符合准则（硕士）" },
+        { "condition": "博士学位", "result": "符合准则（博士）" },
+        { "condition": "仅持有学士学位", "result": "不符合准则" }
+      ],
+      "note": "须为认可大学或高等教育院校颁授；STEM科目（科学、科技、工程、数学）的硕士/博士学位额外加分？需参考「STEM科目参考名单」"
+    },
+    {
+      "id": 3,
+      "category": "语言能力",
+      "description": "中英文能力",
+      "criteria": [
+        { "condition": "具备良好中文及英文书写和口语能力", "result": "符合准则（两种语言）" },
+        { "condition": "具备良好中文或英文书写和口语能力", "result": "符合准则（一种语言）" },
+        { "condition": "不具备良好中文或英文能力", "result": "不符合准则" }
+      ],
+      "note": "中文能力要求：普通话或粤语；可通过相关考试/成绩证明"
+    },
+    {
+      "id": 4,
+      "category": "工作经验",
+      "description": "工作经验年限",
+      "criteria": [
+        { "condition": "不少于10年学位程度或专家水平工作经验，其中至少5年担任高级职位", "result": "符合准则（10年+5年高级）" },
+        { "condition": "不少于10年学位程度或专家水平工作经验，其中至少2年担任高级职位", "result": "符合准则（10年+2年高级）" },
+        { "condition": "不少于5年学位程度或专家水平工作经验，其中至少2年担任高级职位", "result": "符合准则（5年+2年高级）" },
+        { "condition": "不少于5年学位程度或专家水平工作经验", "result": "符合准则（5年+）" },
+        { "condition": "不少于2年学位程度或专家水平工作经验", "result": "符合准则（2年+）" },
+        { "condition": "少于2年学位程度或专家水平工作经验", "result": "不符合准则" }
+      ],
+      "note": "高级职位指对机构整体运作负重大责任的管理/专业职位；工作经验须为毕业后累积的全职或自雇工作经验"
+    },
+    {
+      "id": 5,
+      "category": "年收入",
+      "description": "申请前一年全年收入",
+      "criteria": [
+        { "condition": "达港币100万元或以上（或等值外币）", "result": "符合准则" },
+        { "condition": "少于港币100万元", "result": "不符合准则" }
+      ],
+      "note": "包括薪金、津贴、股票期权、公司利润等应课税收入，个人投资收入不计"
+    },
+    {
+      "id": 6,
+      "category": "专业资格/所属行业",
+      "description": "是否持有相关专业资格/属于特定行业",
+      "criteria": [
+        { "condition": "持有2个或以上专业资格，且属于人才清单内专业", "result": "符合准则（2个专业资格+人才清单）" },
+        { "condition": "持有2个或以上专业资格", "result": "符合准则（2个专业资格）" },
+        { "condition": "持有1个专业资格，且属于人才清单内专业", "result": "符合准则（1个专业资格+人才清单）" },
+        { "condition": "持有1个专业资格", "result": "符合准则（1个专业资格）" },
+        { "condition": "无专业资格", "result": "不符合准则" }
+      ],
+      "note": "专业资格指由认可机构颁发的专业认证/注册/执业资格；人才清单涵盖10大领域51个专业"
+    },
+    {
+      "id": 7,
+      "category": "人才清单",
+      "description": "是否符合人才清单要求",
+      "criteria": [
+        { "condition": "符合人才清单内相关专业的规格和要求", "result": "符合准则" },
+        { "condition": "不符合人才清单要求", "result": "不符合准则" }
+      ],
+      "note": "参考 https://www.talentlist.gov.hk/sc 人才清单；优才计划下若符合人才清单可额外加分"
+    },
+    {
+      "id": 8,
+      "category": "业务所有权",
+      "description": "是否拥有业务",
+      "criteria": [
+        { "condition": "拥有一家年利润达港币500万元或以上的企业", "result": "符合准则" },
+        { "condition": "拥有一家年利润达港币100万元或以上的企业", "result": "符合准则" },
+        { "condition": "并非拥有业务或拥有企业利润未达港币100万元", "result": "不符合准则" }
+      ],
+      "note": "须证明申请人对企业拥有绝对实益拥有权"
+    },
+    {
+      "id": 9,
+      "category": "知名企业/跨国公司工作经验",
+      "description": "是否曾在知名企业/跨国公司工作",
+      "criteria": [
+        { "condition": "拥有不少于3年知名企业/跨国公司工作经验", "result": "符合准则" },
+        { "condition": "少于3年", "result": "不符合准则" }
+      ],
+      "note": "知名企业指《福布斯》全球2000强、《财富》世界500强、胡润中国500强等"
+    },
+    {
+      "id": 10,
+      "category": "海外工作经验",
+      "description": "是否有海外工作经验",
+      "criteria": [
+        { "condition": "拥有不少于2年海外工作经验", "result": "符合准则" },
+        { "condition": "少于2年海外工作经验或没有海外经验", "result": "不符合准则" }
+      ],
+      "note": "海外是指中国内地、香港、澳门、台湾以外的国家或地区"
+    },
+    {
+      "id": 11,
+      "category": "国际认可成就",
+      "description": "是否有国际认可成就",
+      "criteria": [
+        { "condition": "在专业领域取得国际认可成就（如奖项、专利、论文等）", "result": "符合准则" },
+        { "condition": "无国际认可成就", "result": "不符合准则" }
+      ],
+      "note": "成就计分制下申请人如有杰出成就（如奥运奖牌、诺贝尔奖、国家/国际奖项）可满足成就计分制要求"
+    },
+    {
+      "id": 12,
+      "category": "配偶/伴侣条件",
+      "description": "随行配偶/伴侣的资历",
+      "criteria": [
+        { "condition": "配偶/伴侣具有大学学位或以上学历", "result": "符合准则" },
+        { "condition": "配偶/伴侣学历低于大学学位或没有随行配偶", "result": "不符合准则" }
+      ],
+      "note": "须提供配偶/伴侣的学历证明"
+    }
+  ],
+  "achievement_based": {
+    "description": "成就计分制适用于具备杰出国际成就的人士",
+    "criteria": [
+      { "description": "申请人曾获得杰出成就奖（例如奥运奖牌、诺贝尔奖、国家/国际奖项）" },
+      { "description": "申请人可以证明其工作得到同业肯定，或对其界别的发展有重大贡献（例如获业内颁发终身成就奖）" }
+    ],
+    "note": "成就计分制只设两个准则，符合其一即可。获批后首次逗留期限为8年。不符合则直接拒绝。"
+  },
+  "assessment_threshold": {
+    "description": "综合计分制设有申请资格门槛，申请人须在提交申请前评估个人资历是否达到门槛。符合较多评核准则的申请将获更优先考虑。",
+    "note": "入境处处长有绝对酌情权评定申请人是否符合某项评核准则，以及批准或否决任何申请"
+  }
+}
