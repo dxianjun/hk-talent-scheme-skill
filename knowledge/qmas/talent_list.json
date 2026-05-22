@@ -1,0 +1,108 @@
+{
+  "meta": {
+    "plan": "优秀人才入境计划 - 人才清单",
+    "source": "https://www.talentlist.gov.hk/sc",
+    "last_updated": "2026-05-23",
+    "total_fields": 10,
+    "description": "人才清单涵盖10大领域，合资格专业可为优才计划申请人带来额外加分"
+  },
+  "fields": [
+    {
+      "id": 1,
+      "name": "商业支援",
+      "en_name": "Business Support",
+      "professions": [
+        "资产管理合规专才",
+        "环境、社会及管治(ESG)相关财经专才",
+        "废物处理专家"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "创意产业丶艺术文化丶表演艺术",
+      "en_name": "Creative Industries, Arts, Culture, Performing Arts",
+      "professions": [
+        "创意产业和表演艺术专才"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "发展及建造",
+      "en_name": "Development and Construction",
+      "professions": [
+        "资产管理专才"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "环境技术服务",
+      "en_name": "Environmental Technical Services",
+      "professions": [
+        "废物处理专家"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "金融服务",
+      "en_name": "Financial Services",
+      "professions": [
+        "资产管理专才",
+        "环境、社会及管治(ESG)相关财经专才",
+        "海事保险专才",
+        "精算师",
+        "金融科技专才"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "医疗服务",
+      "en_name": "Medical Services",
+      "professions": [
+        "医生",
+        "护士",
+        "牙医",
+        "中医师",
+        "药剂师",
+        "物理治疗师",
+        "职业治疗师",
+        "放射技师"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "创新科技",
+      "en_name": "Innovation and Technology",
+      "professions": [
+        "数据科学家及网络安全专家",
+        "创新及科技专家"
+      ]
+    },
+    {
+      "id": 8,
+      "name": "法律及争议解决服务",
+      "en_name": "Legal and Dispute Resolution Services",
+      "professions": [
+        "争议解决专才及业务交易律师"
+      ]
+    },
+    {
+      "id": 9,
+      "name": "航空及航运",
+      "en_name": "Aviation and Shipping",
+      "professions": [
+        "造船师",
+        "轮机工程师及船舶总管",
+        "海事保险专才"
+      ]
+    },
+    {
+      "id": 10,
+      "name": "其他",
+      "en_name": "Others",
+      "professions": [
+        "资产管理合规专才"
+      ]
+    }
+  ],
+  "note": "人才清单详情（每个专业的具体规格要求、资历门槛、工作经验等）需从 talentlist.gov.hk 各专业详情页获取。当前数据为基础框架版，可根据需要逐步完善各专业的详细规格。"
+}
